@@ -37,7 +37,7 @@
     Características:
     - São menos precisos.
     - Mais difíceis que os testes unitários.
-    - Entregam mais valor (Se aproximam mais do caso de uso).
+    - Entregam mais valor (Próximo do caso de uso).
 
 ### **- Testes End To End - E2E** (Topo)
 
@@ -48,3 +48,5 @@
     - Mais complexos.
     - São extremamente frágeis (Flaky).
     - Mais demorados (Criação e Execução).
+    - Muito próximo do caso de uso do usuário.
+    - Geralmente feito por QA Testers.
