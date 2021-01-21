@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test button successfully Should render the button successfully 1`] = `
+<div>
+  <button>
+    <b>
+      Login
+    </b>
+  </button>
+</div>
+`;

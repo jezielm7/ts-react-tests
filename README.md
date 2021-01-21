@@ -79,7 +79,7 @@
 
 <br/>
 
-## **Testes de Regressão Visual** 
+## **Testes de Regressão Visual** (Snapshot Test - Front) 
     Testam se uma nova funcionalidade 
     não altera um comportamento antigo.
 
