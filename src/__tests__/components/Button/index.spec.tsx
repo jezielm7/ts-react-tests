@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 describe('Test button successfully', () => {
   it('Should render the button successfully', () => {
     const buttonText = 'Login';
-    const { container } = render(<Button label={buttonText} />);
+    const { container } = render(<Button>{buttonText}</Button>);
 
     const button = screen.getByRole('button', {name: buttonText});
 
@@ -18,7 +18,7 @@ describe('Test button successfully', () => {
     const buttonText = 'Login';
     const onClick = jest.fn();
 
-    render(<Button label={buttonText} onClick={onClick} />);
+    render(<Button onClick={onClick}>{buttonText}</Button>);
     const button = screen.getByRole('button', {name: buttonText});
 
     userEvent.click(button);

@@ -1,10 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+interface Props {
+  children: React.ReactNode;
+  onClick?: () => void;
+}
 
-const Button: React.FC = ({ label, onClick }) => {
+const Button: React.FC<Props> = ({ children, onClick }) => {
   return (
-    <button onClick={onClick}><b>{label}</b></button>
+    <button onClick={onClick}><b>Login</b></button>
   );
 }
 
